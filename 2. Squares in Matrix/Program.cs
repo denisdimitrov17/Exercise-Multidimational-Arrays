@@ -11,7 +11,7 @@ namespace _2._Squares_in_Matrix
             int rows = n[0];
             int cols = n[1];
 
-            char[,] matrix = new char[rows, cols];
+            char[,] matrix = new char[rows, cols];//
 
             FillMatrix(matrix);
             int count = 0;
